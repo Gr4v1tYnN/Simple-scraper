@@ -14,7 +14,7 @@ CREATE TABLE `scraped_articles` (
   `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-ALTER TABLE `scrapped_articles`
+ALTER TABLE `scraped_articles`
   ADD PRIMARY KEY (`scraped_articles_id`);
 
 ALTER TABLE `scraped_articles`
